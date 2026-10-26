@@ -63,8 +63,8 @@ function Home() {
   return (
     <Layout>
       <SEO
-        title="Flight Deals & Cheap Flights | FlightDealsNow"
-        description="Search flight deals and compare available airfare options. Find cheap flights, explore destinations, and request a flight quote with FlightDealsNow."
+        title="Flight Deals & Cheap Flights | flighttripdeals"
+        description="Search flight deals and compare available airfare options. Find cheap flights, explore destinations, and request a flight quote with flighttripdeals."
         path="/"
       />
       <Hero />
@@ -86,7 +86,9 @@ function DynamicDestination() {
     <Layout>
       <CheapFlightsNewYork key={destination.path} destination={destination} />
     </Layout>
-  ) : <Home />;
+  ) : (
+    <Home />
+  );
 }
 
 function App() {
@@ -274,7 +276,11 @@ function App() {
           element={
             <Layout>
               {" "}
-              <CheapFlightsNewYork destination={destinationFromPath("cheap-flights-to-new-york-city")} />{" "}
+              <CheapFlightsNewYork
+                destination={destinationFromPath(
+                  "cheap-flights-to-new-york-city",
+                )}
+              />{" "}
             </Layout>
           }
         />
@@ -346,7 +352,14 @@ function App() {
           }
         />
 
-        <Route path="/airlines/:airlineSlug" element={<Layout><DynamicAirline /></Layout>} />
+        <Route
+          path="/airlines/:airlineSlug"
+          element={
+            <Layout>
+              <DynamicAirline />
+            </Layout>
+          }
+        />
         <Route path="/:destinationPath" element={<DynamicDestination />} />
 
         {/* FALLBACK */}

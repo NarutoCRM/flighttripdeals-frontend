@@ -5,8 +5,8 @@ export default function ThankYou() {
   return (
     <section className="mx-auto max-w-3xl px-5 py-24 text-center">
       <SEO
-        title="Thank You | FlightDealsNow"
-        description="Your flight quote request has been sent to FlightDealsNow. Our travel team will contact you shortly."
+        title="Thank You | flighttripdeals"
+        description="Your flight quote request has been sent to flighttripdeals. Our travel team will contact you shortly."
         path="/thank-you"
       />
 

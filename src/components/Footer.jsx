@@ -1,7 +1,5 @@
-const PHONE = "+1-888-348-7083"
+const PHONE = "+1-888-348-7083";
 import TrustpilotButton from "./TrustpilotButton";
-
-
 
 export default function Footer() {
   return (
@@ -17,7 +15,7 @@ export default function Footer() {
 
               <div>
                 <div className="text-lg font-extrabold text-white">
-                  FlightDealsNow
+                  flighttripdeals
                 </div>
                 <div className="text-[10px] uppercase tracking-wider text-slate-500">
                   Travel Made Easier
@@ -26,8 +24,8 @@ export default function Footer() {
             </a>
 
             <p className="mt-4 max-w-sm text-sm leading-6 text-slate-400">
-              Explore available travel options, compare itineraries, and find
-              a trip that fits your plans with FlightDealsNow.
+              Explore available travel options, compare itineraries, and find a
+              trip that fits your plans with flighttripdeals.
             </p>
           </div>
 
@@ -115,10 +113,10 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:support@flightdealsnow.com"
+                href="mailto:support@flighttripdeals.com"
                 className="block break-all hover:text-white"
               >
-                support@flightdealsnow.com
+                support@flighttripdeals.com
               </a>
 
               <p className="leading-6 text-slate-400">
@@ -162,7 +160,6 @@ export default function Footer() {
               </span>
             </div>
           </div>
-
         </div>
         {/* Disclaimer */}
         <br />
@@ -171,11 +168,12 @@ export default function Footer() {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5 sm:p-6">
             <p className="text-xs font-medium leading-6 text-white/60 sm:text-sm">
               <span className="font-bold text-white/80">Disclaimer:</span>{" "}
-              FlightDealsNow.com is an independent travel agent and is not affiliated
-              with any airline, OTA, or third-party travel provider. All fares are
-              sourced from third parties and are dynamic, subject to change, and not
-              guaranteed until actual booking and confirmation. Final prices and
-              availability should be verified at the time of booking.
+              flighttripdeals.com is an independent travel agent and is not
+              affiliated with any airline, OTA, or third-party travel provider.
+              All fares are sourced from third parties and are dynamic, subject
+              to change, and not guaranteed until actual booking and
+              confirmation. Final prices and availability should be verified at
+              the time of booking.
             </p>
           </div>
         </div>
@@ -190,7 +188,6 @@ export default function Footer() {
         {/* Legal Links */}
 
         <div className="mt-8 border-t border-white/10 pt-6">
-
           <div className="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500">
             <a href="/privacy-policy" className="hover:text-white">
               Privacy Policy
@@ -211,10 +208,7 @@ export default function Footer() {
             <a href="/disclaimer" className="hover:text-white">
               Disclaimer
             </a>
-            <a
-              href="/sitemap.xml"
-              className="hover:text-white"
-            >
+            <a href="/sitemap.xml" className="hover:text-white">
               Sitemap
             </a>
             {/* <a href=""><TrustpilotButton /></a> */}
@@ -222,14 +216,13 @@ export default function Footer() {
 
           <div className="mt-5 flex flex-col justify-between gap-3 text-xs text-slate-500 sm:flex-row">
             <p>
-              © {new Date().getFullYear()} FlightDealsNow. All rights reserved.
+              © {new Date().getFullYear()} flighttripdeals. All rights reserved.
             </p>
 
-            {/* <p>Operated by Flightdealsnow.com</p> */}
-
+            {/* <p>Operated by flighttripdeals.com</p> */}
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-# FlightDealsNow
+# flighttripdeals
 
-FlightDealsNow is a modern travel landing site built with React, Vite, and Tailwind CSS. It showcases flight deals, popular destinations, airline-specific pages, and a quote request flow that sends traveler information to EmailJS directly from the browser.
+flighttripdeals is a modern travel landing site built with React, Vite, and Tailwind CSS. It showcases flight deals, popular destinations, airline-specific pages, and a quote request flow that sends traveler information to EmailJS directly from the browser.
 
 ## Overview
 
@@ -24,7 +24,7 @@ This project is a front-end website for a flight booking brand. It includes:
 ## Project Structure
 
 ```bash
-FlightDealsNow/
+flighttripdeals/
 ├── public/
 ├── src/
 │   ├── assets/
@@ -106,7 +106,7 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 The recipient email in the app is currently set to:
 
 ```bash
-support@flightdealsnow.com
+support@flighttripdeals.com
 ```
 
 The form sends these template parameters:

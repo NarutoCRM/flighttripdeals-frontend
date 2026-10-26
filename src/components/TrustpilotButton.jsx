@@ -5,18 +5,12 @@ const TrustpilotButton = () => {
 
   useEffect(() => {
     const existingScript = document.querySelector(
-      'script[src*="widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"]'
+      'script[src*="widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"]',
     );
 
     const loadTrustpilot = () => {
-      if (
-        window.Trustpilot &&
-        widgetRef.current
-      ) {
-        window.Trustpilot.loadFromElement(
-          widgetRef.current,
-          true
-        );
+      if (window.Trustpilot && widgetRef.current) {
+        window.Trustpilot.loadFromElement(widgetRef.current, true);
       }
     };
 
@@ -54,7 +48,7 @@ const TrustpilotButton = () => {
       data-token="6c6d3b1e-20cc-4500-9cb6-72d4b7a9712b"
     >
       <a
-        href="https://www.trustpilot.com/review/flightdealsnow.com"
+        href="https://www.trustpilot.com/review/flighttripdeals.com"
         target="_blank"
         rel="noopener noreferrer"
       >

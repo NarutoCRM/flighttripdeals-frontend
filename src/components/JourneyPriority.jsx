@@ -7,7 +7,6 @@ const JourneyPriority = () => {
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-
           {/* ================= IMAGE SIDE ================= */}
           <div className="group relative">
             <div className="absolute -inset-3 rounded-[32px] bg-gradient-to-br from-blue-500/20 to-cyan-400/20 blur-xl" />
@@ -36,7 +35,7 @@ const JourneyPriority = () => {
                     </p>
                     <p className="mt-1 text-xs leading-5 text-white/75">
                       Explore routes, compare options and request your flight
-                      quote with FlightDealsNow.
+                      quote with flighttripdeals.
                     </p>
                   </div>
                 </div>
@@ -52,7 +51,7 @@ const JourneyPriority = () => {
 
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    FlightDealsNow
+                    flighttripdeals
                   </p>
                   <p className="mt-1 text-sm font-extrabold text-[#071a33]">
                     Travel made easier
@@ -70,20 +69,17 @@ const JourneyPriority = () => {
 
             <h2 className="mt-5 text-4xl font-black leading-tight tracking-tight text-[#071a33] sm:text-5xl">
               Your journey deserves
-              <span className="block text-blue-600">
-                a better beginning.
-              </span>
+              <span className="block text-blue-600">a better beginning.</span>
             </h2>
 
             <p className="mt-6 text-base leading-7 text-slate-600 sm:text-lg">
               Planning a trip should be exciting, not complicated. At
-              FlightDealsNow, we make it easier to explore flight options and
+              flighttripdeals, we make it easier to explore flight options and
               take the next step toward your destination.
             </p>
 
             {/* Feature Points */}
             <div className="mt-8 space-y-5">
-
               <div className="flex gap-4">
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#071a33] text-cyan-300">
                   ✓
@@ -112,8 +108,8 @@ const JourneyPriority = () => {
                   </h3>
 
                   <p className="mt-1 text-sm leading-6 text-slate-600">
-                    When you need help, our travel team can assist you with
-                    your flight request and trip details.
+                    When you need help, our travel team can assist you with your
+                    flight request and trip details.
                   </p>
                 </div>
               </div>
@@ -134,12 +130,10 @@ const JourneyPriority = () => {
                   </p>
                 </div>
               </div>
-
             </div>
 
             {/* Bottom CTA */}
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
-
               <a
                 href="/"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#071a33] px-7 py-3.5 text-sm font-extrabold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-600"
@@ -156,14 +150,12 @@ const JourneyPriority = () => {
                 </span>
                 Simple flight search
               </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default JourneyPriority
+export default JourneyPriority;

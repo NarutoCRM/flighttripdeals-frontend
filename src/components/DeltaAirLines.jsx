@@ -5,18 +5,16 @@ import SEO from "./SEO";
   title="Delta Air Lines Flights | Search & Get a Quote | FlightsDealNow"
   description="Search Delta Air Lines flight options, select your travel details and request a personalized flight quote."
   path="/airlines/delta-air-lines"
-/>
+/>;
 
 export default function DeltaAirLines() {
   return (
     <div className="bg-[#f7fafc] text-slate-900">
-
       {/* HERO */}
       <section className="relative overflow-hidden bg-[#071a33]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(103,232,249,.18),transparent_30%),radial-gradient(circle_at_10%_80%,rgba(37,99,235,.18),transparent_35%)]" />
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 pb-36 pt-24 lg:grid-cols-[.95fr_1.05fr] lg:px-8 lg:pb-44 lg:pt-32">
-
           <div className="max-w-3xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/5 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-cyan-200">
               <span className="h-2 w-2 rounded-full bg-cyan-300" />
@@ -25,15 +23,13 @@ export default function DeltaAirLines() {
 
             <h1 className="text-4xl font-black leading-tight text-white sm:text-5xl lg:text-7xl">
               Search Delta Air Lines
-              <span className="block text-cyan-300">
-                Flights With Ease
-              </span>
+              <span className="block text-cyan-300">Flights With Ease</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
               Explore Delta Air Lines flight options and submit your travel
               details to receive a personalized flight quote through
-              FlightDealsNow.
+              flighttripdeals.
             </p>
           </div>
 
@@ -54,13 +50,12 @@ export default function DeltaAirLines() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-600">
-            Search for Delta Air Lines flight options by entering your
-            departure city, destination, travel dates, travelers and cabin
-            preference.
+            Search for Delta Air Lines flight options by entering your departure
+            city, destination, travel dates, travelers and cabin preference.
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-600">
-            FlightDealsNow helps travelers organize their trip details before
+            flighttripdeals helps travelers organize their trip details before
             requesting a personalized flight quote.
           </p>
         </div>
@@ -69,7 +64,6 @@ export default function DeltaAirLines() {
       {/* POPULAR ROUTES */}
       <section className="bg-[#071a33] py-24">
         <div className="mx-auto max-w-6xl px-5 lg:px-8">
-
           <p className="text-xs font-black uppercase tracking-[0.25em] text-cyan-300">
             Popular Routes
           </p>
@@ -109,7 +103,6 @@ export default function DeltaAirLines() {
       {/* WHY SEARCH */}
       <section className="bg-white py-24">
         <div className="mx-auto max-w-6xl px-5 lg:px-8">
-
           <div className="text-center">
             <p className="text-xs font-black uppercase tracking-[0.25em] text-blue-600">
               Why Search With Us
@@ -122,12 +115,36 @@ export default function DeltaAirLines() {
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             {[
-              ["01", "Simple Flight Search", "Enter your route and travel dates in one convenient form."],
-              ["02", "Flexible Travel", "Search one-way or round-trip travel according to your plans."],
-              ["03", "Cabin Selection", "Choose the cabin preference that fits your journey."],
-              ["04", "Personalized Quote", "Submit your requirements and request a personalized quote."],
-              ["05", "Travel Assistance", "Get support with your flight search and travel requirements."],
-              ["06", "Clear Trip Details", "Your selected travel details move into the quote request."],
+              [
+                "01",
+                "Simple Flight Search",
+                "Enter your route and travel dates in one convenient form.",
+              ],
+              [
+                "02",
+                "Flexible Travel",
+                "Search one-way or round-trip travel according to your plans.",
+              ],
+              [
+                "03",
+                "Cabin Selection",
+                "Choose the cabin preference that fits your journey.",
+              ],
+              [
+                "04",
+                "Personalized Quote",
+                "Submit your requirements and request a personalized quote.",
+              ],
+              [
+                "05",
+                "Travel Assistance",
+                "Get support with your flight search and travel requirements.",
+              ],
+              [
+                "06",
+                "Clear Trip Details",
+                "Your selected travel details move into the quote request.",
+              ],
             ].map(([number, title, text]) => (
               <div
                 key={number}
@@ -141,9 +158,7 @@ export default function DeltaAirLines() {
                   {title}
                 </h3>
 
-                <p className="mt-3 leading-7 text-slate-600">
-                  {text}
-                </p>
+                <p className="mt-3 leading-7 text-slate-600">{text}</p>
               </div>
             ))}
           </div>
@@ -153,7 +168,6 @@ export default function DeltaAirLines() {
       {/* FAQ */}
       <section className="bg-[#f7fafc] py-24">
         <div className="mx-auto max-w-4xl px-5 lg:px-8">
-
           <div className="text-center">
             <p className="text-xs font-black uppercase tracking-[0.25em] text-blue-600">
               Flight Search FAQ
@@ -171,7 +185,7 @@ export default function DeltaAirLines() {
               "Can I search for round-trip flights?",
               "Can I choose my cabin class?",
               "Can I request help with my Delta flight?",
-              "Is FlightDealsNow the official Delta website?",
+              "Is flighttripdeals the official Delta website?",
             ].map((question, index) => (
               <details
                 key={index}
@@ -179,13 +193,11 @@ export default function DeltaAirLines() {
               >
                 <summary className="cursor-pointer list-none font-black text-[#071a33]">
                   {question}
-                  <span className="float-right text-blue-600">
-                    +
-                  </span>
+                  <span className="float-right text-blue-600">+</span>
                 </summary>
 
                 <p className="mt-4 border-t border-slate-100 pt-4 text-sm leading-7 text-slate-600">
-                  FlightDealsNow provides a flight search and quote-request
+                  flighttripdeals provides a flight search and quote-request
                   experience. Enter your travel requirements above to request
                   assistance with your trip.
                 </p>
@@ -198,7 +210,6 @@ export default function DeltaAirLines() {
       {/* CTA */}
       <section className="bg-[#071a33] px-5 py-24">
         <div className="mx-auto max-w-5xl rounded-[32px] border border-cyan-300/10 bg-white/[0.05] p-8 text-center sm:p-14">
-
           <p className="text-xs font-black uppercase tracking-[0.25em] text-cyan-300">
             Ready to travel?
           </p>
@@ -209,7 +220,7 @@ export default function DeltaAirLines() {
 
           <p className="mx-auto mt-5 max-w-2xl leading-7 text-slate-300">
             Enter your travel requirements and request a personalized quote
-            through FlightDealsNow.
+            through flighttripdeals.
           </p>
 
           <button
@@ -220,7 +231,6 @@ export default function DeltaAirLines() {
           </button>
         </div>
       </section>
-
     </div>
   );
 }

@@ -15,12 +15,12 @@ const testimonials = [
   },
   {
     quote:
-      "FlightDealsNow made my travel planning much less stressful. The team was helpful and made sure I understood my options.",
+      "flighttripdeals made my travel planning much less stressful. The team was helpful and made sure I understood my options.",
     name: "Jessica R.",
     location: "New York, USA",
     initials: "JR",
   },
-]
+];
 
 const Testimonials = () => {
   return (
@@ -30,7 +30,6 @@ const Testimonials = () => {
       <div className="pointer-events-none absolute bottom-0 right-1/4 h-80 w-80 rounded-full bg-cyan-400/10 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
         {/* Header */}
         <div className="mx-auto mb-14 max-w-3xl text-center">
           <span className="inline-flex items-center rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em] text-cyan-300 backdrop-blur-md">
@@ -39,13 +38,11 @@ const Testimonials = () => {
 
           <h2 className="mt-5 text-4xl font-black tracking-tight text-white sm:text-5xl">
             Real journeys.
-            <span className="block text-cyan-300">
-              Real experiences.
-            </span>
+            <span className="block text-cyan-300">Real experiences.</span>
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            See how travelers describe their experience with FlightDealsNow.
+            See how travelers describe their experience with flighttripdeals.
           </p>
         </div>
 
@@ -64,10 +61,7 @@ const Testimonials = () => {
               {/* Rating */}
               <div className="relative flex items-center gap-1">
                 {[1, 2, 3, 4, 5].map((star) => (
-                  <span
-                    key={star}
-                    className="text-sm text-cyan-300"
-                  >
+                  <span key={star} className="text-sm text-cyan-300">
                     ★
                   </span>
                 ))}
@@ -84,22 +78,19 @@ const Testimonials = () => {
               {/* Customer */}
               <div className="flex items-center gap-4">
                 <div
-                  className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-sm font-black ${index === 1
-                    ? "bg-cyan-300 text-[#071a33]"
-                    : "bg-white text-[#071a33]"
-                    }`}
+                  className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-sm font-black ${
+                    index === 1
+                      ? "bg-cyan-300 text-[#071a33]"
+                      : "bg-white text-[#071a33]"
+                  }`}
                 >
                   {item.initials}
                 </div>
 
                 <div>
-                  <h3 className="font-extrabold text-white">
-                    {item.name}
-                  </h3>
+                  <h3 className="font-extrabold text-white">{item.name}</h3>
 
-                  <p className="mt-1 text-xs text-slate-400">
-                    {item.location}
-                  </p>
+                  <p className="mt-1 text-xs text-slate-400">{item.location}</p>
                 </div>
               </div>
 
@@ -129,10 +120,9 @@ const Testimonials = () => {
             <span>→</span>
           </a>
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

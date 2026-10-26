@@ -1,15 +1,11 @@
-import React from "react"
+import React from "react";
 import SEO from "./SEO";
 
-
-
-const PHONE_NUMBER = "+1-888-348-7083"
-const DISPLAY_PHONE = "+1-888-348-7083"
+const PHONE_NUMBER = "+1-888-348-7083";
+const DISPLAY_PHONE = "+1-888-348-7083";
 
 const Section = ({ number, title, children }) => (
-
   <section className="mb-10">
-    
     <h2 className="mb-4 text-xl font-bold text-slate-900 sm:text-2xl">
       {number}. {title}
     </h2>
@@ -18,7 +14,7 @@ const Section = ({ number, title, children }) => (
       {children}
     </div>
   </section>
-)
+);
 
 const BulletList = ({ items }) => (
   <ul className="ml-5 list-disc space-y-2 text-[15px] leading-7 text-slate-600">
@@ -26,16 +22,16 @@ const BulletList = ({ items }) => (
       <li key={index}>{item}</li>
     ))}
   </ul>
-)
+);
 
 function Disclaimer() {
   return (
     <main className="min-h-screen bg-slate-50">
       <SEO
-      title="Disclaimer | FlightsDealNow"
-      description="Read the FlightsDealNow disclaimer regarding flight information, travel services, airline references, pricing, availability, and third-party providers."
-      path="/disclaimer"
-    />
+        title="Disclaimer | FlightsDealNow"
+        description="Read the FlightsDealNow disclaimer regarding flight information, travel services, airline references, pricing, availability, and third-party providers."
+        path="/disclaimer"
+      />
       {/* Hero */}
       <section className="relative overflow-hidden bg-slate-950 py-20 sm:py-24">
         <div
@@ -45,7 +41,7 @@ function Disclaimer() {
 
         <div className="relative mx-auto max-w-5xl px-5 text-center sm:px-6">
           <span className="mb-4 inline-block rounded-full bg-blue-500/20 px-4 py-2 text-sm font-semibold text-blue-300">
-            FlightDealsNow
+            flighttripdeals
           </span>
 
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
@@ -53,13 +49,13 @@ function Disclaimer() {
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            Important information regarding travel services, flight
-            information, prices, availability, third-party suppliers, and
-            travel arrangements.
+            Important information regarding travel services, flight information,
+            prices, availability, third-party suppliers, and travel
+            arrangements.
           </p>
 
           <p className="mt-5 text-sm font-medium text-slate-400">
-            Operated by Flightdealsnow.com
+            Operated by flighttripdeals.com
           </p>
         </div>
       </section>
@@ -67,28 +63,27 @@ function Disclaimer() {
       {/* Content */}
       <section className="px-5 py-12 sm:px-6 sm:py-16">
         <div className="mx-auto max-w-4xl rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-10 lg:p-12">
-
           {/* Introduction */}
           <div className="mb-10 border-b border-slate-200 pb-8">
             <p className="text-[15px] leading-7 text-slate-600 sm:text-base">
-              FlightDealsNow is operated by Flightdealsnow.com and provides
+              flighttripdeals is operated by flighttripdeals.com and provides
               travel-related information, flight search assistance, booking
               support, and related services to customers.
             </p>
 
             <p className="mt-4 text-[15px] leading-7 text-slate-600 sm:text-base">
-              The information and services available through FlightDealsNow are
+              The information and services available through flighttripdeals are
               provided to help customers explore and arrange travel options.
               While we make reasonable efforts to provide useful and accurate
-              information, travel prices, schedules, availability, policies,
-              and other details can change frequently. Customers should review
-              the applicable terms and conditions before completing a booking.
+              information, travel prices, schedules, availability, policies, and
+              other details can change frequently. Customers should review the
+              applicable terms and conditions before completing a booking.
             </p>
           </div>
 
           <Section number="1" title="Travel Service Provider">
             <p>
-              FlightDealsNow is an independent travel service provider and is
+              flighttripdeals is an independent travel service provider and is
               not an airline, airport, or government agency.
             </p>
 
@@ -99,20 +94,20 @@ function Disclaimer() {
             </p>
 
             <p>
-              The airlines and other suppliers associated with a booking
-              remain responsible for their own flights, schedules, fares,
-              ticket conditions, baggage policies, operational decisions,
+              The airlines and other suppliers associated with a booking remain
+              responsible for their own flights, schedules, fares, ticket
+              conditions, baggage policies, operational decisions,
               cancellations, delays, and other services they provide.
             </p>
           </Section>
 
           <Section number="2" title="Flight Information">
             <p>
-              We make reasonable efforts to ensure that information displayed
-              or communicated through FlightDealsNow is accurate and useful.
+              We make reasonable efforts to ensure that information displayed or
+              communicated through flighttripdeals is accurate and useful.
               However, flight schedules, fares, availability, routes, baggage
-              allowances, restrictions, taxes, and other travel information
-              may change without notice.
+              allowances, restrictions, taxes, and other travel information may
+              change without notice.
             </p>
 
             <p>
@@ -130,8 +125,8 @@ function Disclaimer() {
           <Section number="3" title="Prices & Availability">
             <p>
               Travel prices may change due to availability, demand, airline
-              pricing decisions, taxes, fees, currency fluctuations, and
-              other factors.
+              pricing decisions, taxes, fees, currency fluctuations, and other
+              factors.
             </p>
 
             <p>
@@ -145,7 +140,7 @@ function Disclaimer() {
             </p>
 
             <p>
-              FlightDealsNow does not guarantee the availability of any
+              flighttripdeals does not guarantee the availability of any
               particular fare or flight until the applicable booking has been
               successfully confirmed.
             </p>
@@ -175,14 +170,14 @@ function Disclaimer() {
             </p>
 
             <p>
-              FlightDealsNow cannot override an airline's fare rules or
+              flighttripdeals cannot override an airline's fare rules or
               guarantee that an airline will approve a particular request.
             </p>
           </Section>
 
           <Section number="5" title="Third-Party Services">
             <p>
-              FlightDealsNow may work with or provide access to independent
+              flighttripdeals may work with or provide access to independent
               airlines, travel suppliers, reservation systems, payment
               providers, technology providers, and other third parties.
             </p>
@@ -193,7 +188,7 @@ function Disclaimer() {
             </p>
 
             <p>
-              Flightdealsnow.com does not control the operations, policies,
+              flighttripdeals.com does not control the operations, policies,
               availability, or decisions of independent third-party providers
               and is not responsible for changes made by them that are outside
               our reasonable control.
@@ -219,19 +214,22 @@ function Disclaimer() {
             </p>
 
             <p>
-              FlightDealsNow does not guarantee that a traveler will be
-              permitted to enter, leave, or transit through a particular
-              country or destination.
+              flighttripdeals does not guarantee that a traveler will be
+              permitted to enter, leave, or transit through a particular country
+              or destination.
             </p>
 
             <p>
-              Customers should verify current requirements with the
-              appropriate airline and relevant government or immigration
-              authorities before traveling.
+              Customers should verify current requirements with the appropriate
+              airline and relevant government or immigration authorities before
+              traveling.
             </p>
           </Section>
 
-          <Section number="7" title="Flight Delays, Cancellations, and Disruptions">
+          <Section
+            number="7"
+            title="Flight Delays, Cancellations, and Disruptions"
+          >
             <p>
               Airlines may change or cancel flights, modify schedules, delay
               departures, change aircraft, overbook flights, or make other
@@ -245,7 +243,7 @@ function Disclaimer() {
             </p>
 
             <p>
-              FlightDealsNow may assist customers in reviewing available
+              flighttripdeals may assist customers in reviewing available
               options when appropriate, but the airline or relevant travel
               supplier generally determines the remedies, rebooking options,
               credits, or refunds available under its policies.
@@ -266,21 +264,21 @@ function Disclaimer() {
             </p>
 
             <p>
-              FlightDealsNow is not responsible for problems caused by
+              flighttripdeals is not responsible for problems caused by
               incorrect, incomplete, outdated, or misleading information
               provided by a customer.
             </p>
 
             <p>
-              Customers should carefully review their booking information
-              before confirming a reservation.
+              Customers should carefully review their booking information before
+              confirming a reservation.
             </p>
           </Section>
 
           <Section number="9" title="Website Content">
             <p>
               Although we make reasonable efforts to maintain accurate
-              information, FlightDealsNow is provided on an “as available”
+              information, flighttripdeals is provided on an “as available”
               basis.
             </p>
 
@@ -297,13 +295,13 @@ function Disclaimer() {
 
           <Section number="10" title="External Links">
             <p>
-              FlightDealsNow may contain links or references to third-party
+              flighttripdeals may contain links or references to third-party
               websites, applications, or services.
             </p>
 
             <p>
               These external websites are not operated or controlled by
-              Flightdealsnow.com. We are not responsible for the content,
+              flighttripdeals.com. We are not responsible for the content,
               availability, security, accuracy, privacy practices, or policies
               of third-party websites.
             </p>
@@ -316,8 +314,8 @@ function Disclaimer() {
 
           <Section number="11" title="Limitation of Responsibility">
             <p>
-              To the extent permitted by applicable law, Flightdealsnow.com and
-              FlightDealsNow are not responsible for losses, costs, delays,
+              To the extent permitted by applicable law, flighttripdeals.com and
+              flighttripdeals are not responsible for losses, costs, delays,
               disruptions, or other consequences resulting from circumstances
               outside our reasonable control, including airline cancellations,
               delays, schedule changes, weather conditions, airport closures,
@@ -336,52 +334,50 @@ function Disclaimer() {
             <p>
               The availability of travel information, a flight search result,
               fare, booking option, or travel recommendation through
-              FlightDealsNow does not guarantee a particular travel experience
+              flighttripdeals does not guarantee a particular travel experience
               or outcome.
             </p>
 
             <p>
-              Travel arrangements remain subject to airline rules,
-              availability, operational circumstances, government
-              requirements, and other conditions that may be outside our
-              control.
+              Travel arrangements remain subject to airline rules, availability,
+              operational circumstances, government requirements, and other
+              conditions that may be outside our control.
             </p>
           </Section>
 
           <Section number="13" title="Changes To This Disclaimer">
             <p>
-              Flightdealsnow.com may update this Disclaimer when necessary to
+              flighttripdeals.com may update this Disclaimer when necessary to
               reflect changes to our website, services, business practices, or
               applicable requirements.
             </p>
 
             <p>
-              Any revised version will be made available on FlightDealsNow. We
+              Any revised version will be made available on flighttripdeals. We
               encourage visitors to review this page periodically.
             </p>
           </Section>
 
           <Section number="14" title="Contact Us">
             <p>
-              If you have questions regarding this Disclaimer or the
-              information provided through FlightDealsNow, you can contact us
-              at:
+              If you have questions regarding this Disclaimer or the information
+              provided through flighttripdeals, you can contact us at:
             </p>
 
             <div className="rounded-2xl bg-blue-50 p-6 ring-1 ring-blue-100">
               <div className="space-y-3 text-sm leading-6 text-slate-700">
                 <p>
-                  <strong className="text-slate-900">Address:</strong>{" "}
-                  30 N Gould St, Sheridan, WY 82801, USA
+                  <strong className="text-slate-900">Address:</strong> 30 N
+                  Gould St, Sheridan, WY 82801, USA
                 </p>
 
                 <p>
                   <strong className="text-slate-900">Email:</strong>{" "}
                   <a
-                    href="mailto:support@flightdealsnow.com"
+                    href="mailto:support@flighttripdeals.com"
                     className="font-medium text-blue-600 hover:underline"
                   >
-                    support@flightdealsnow.com
+                    support@flighttripdeals.com
                   </a>
                 </p>
 
@@ -398,10 +394,9 @@ function Disclaimer() {
             </div>
 
             <p className="mt-6">
-              By using FlightDealsNow, you acknowledge that travel arrangements
-              are subject to the policies, terms, availability, and
-              operational decisions of the applicable airlines and other
-              travel suppliers.
+              By using flighttripdeals, you acknowledge that travel arrangements
+              are subject to the policies, terms, availability, and operational
+              decisions of the applicable airlines and other travel suppliers.
             </p>
           </Section>
 
@@ -412,8 +407,8 @@ function Disclaimer() {
             </h3>
 
             <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-slate-300">
-              Talk with an FlightDealsNow travel expert for assistance with your
-              trip.
+              Talk with an flighttripdeals travel expert for assistance with
+              your trip.
             </p>
 
             <a
@@ -426,7 +421,7 @@ function Disclaimer() {
         </div>
       </section>
     </main>
-  )
+  );
 }
 
-export default Disclaimer
+export default Disclaimer;

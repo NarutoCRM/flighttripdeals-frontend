@@ -1,7 +1,6 @@
 import FlightSearch from "./FlightSearch";
-import { useState } from "react"
+import { useState } from "react";
 import SEO from "./SEO";
-
 
 const faqs = [
   {
@@ -40,11 +39,11 @@ const faqs = [
       "Yes. Comparing both airports can give you additional flight choices. Also consider transportation from the airport to your accommodation before selecting your itinerary.",
   },
   {
-    question: "Why search for Paris flights with FlightDealsNow?",
+    question: "Why search for Paris flights with flighttripdeals?",
     answer:
-      "FlightDealsNow provides a convenient way to explore available flight options and compare itineraries based on your travel dates, preferences, and budget.",
+      "flighttripdeals provides a convenient way to explore available flight options and compare itineraries based on your travel dates, preferences, and budget.",
   },
-]
+];
 
 const places = [
   "Eiffel Tower",
@@ -58,7 +57,7 @@ const places = [
   "Seine River",
   "Le Marais",
   "Palace of Versailles",
-]
+];
 
 const airports = [
   {
@@ -71,7 +70,7 @@ const airports = [
     name: "Orly Airport",
     text: "Orly Airport is another important airport serving Paris and can be convenient depending on your airline, route, and where you're staying.",
   },
-]
+];
 
 const tips = [
   "Check nearby departure dates to compare fares.",
@@ -81,7 +80,7 @@ const tips = [
   "Check fares outside major holidays and peak travel periods.",
   "Search ahead when possible to have more options to choose from.",
   "Compare the full itinerary, including connections and travel time.",
-]
+];
 
 const seasons = [
   {
@@ -100,21 +99,20 @@ const seasons = [
     title: "Winter",
     text: "Winter gives Paris a different kind of charm. Holiday decorations, seasonal markets, cozy cafés, and fewer tourists at some attractions can make it an appealing time for travelers who enjoy a slower city experience.",
   },
-]
+];
 
 function CheapFlightsParis() {
-  const [openFaq, setOpenFaq] = useState(0)
+  const [openFaq, setOpenFaq] = useState(0);
 
   return (
     <main className="overflow-hidden bg-[#f7fafc] text-slate-900">
       <SEO
-        title="Cheap Flights to Paris | Flight Deals | FlightDealsNow"
-        description="Find cheap flights to Paris and explore available airfare options. Compare flight deals and request a quote with FlightDealsNow."
+        title="Cheap Flights to Paris | Flight Deals | flighttripdeals"
+        description="Find cheap flights to Paris and explore available airfare options. Compare flight deals and request a quote with flighttripdeals."
         path="/cheap-flights-paris"
       />
       {/* HERO */}
       <section className="relative min-h-[640px] overflow-hidden bg-[#071a33]">
-
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -128,19 +126,15 @@ function CheapFlightsParis() {
         <div className="absolute -left-32 bottom-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
 
         <div className="relative mx-auto grid gap-12 lg:grid-cols-[.95fr_1.05fr] min-h-[640px] max-w-7xl items-center px-5 py-20 sm:px-6 lg:px-8">
-
           <div className="max-w-4xl">
-
             <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-white/10 px-4 py-2 text-sm font-bold text-cyan-200 backdrop-blur-md">
               <span className="h-2 w-2 rounded-full bg-cyan-300" />
-              FlightDealsNow · Paris
+              flighttripdeals · Paris
             </div>
 
             <h1 className="mt-7 text-5xl font-black leading-[1.03] tracking-tight text-white sm:text-6xl lg:text-7xl">
               Cheap Flights to
-              <span className="block text-cyan-300">
-                Paris
-              </span>
+              <span className="block text-cyan-300">Paris</span>
             </h1>
 
             <h2 className="mt-5 text-2xl font-bold text-white sm:text-3xl">
@@ -153,7 +147,6 @@ function CheapFlightsParis() {
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-
               <a
                 href="#flight-search"
                 className="inline-flex items-center justify-center rounded-2xl bg-cyan-300 px-7 py-4 font-black text-[#071a33] shadow-xl transition hover:-translate-y-1 hover:bg-cyan-200"
@@ -168,7 +161,6 @@ function CheapFlightsParis() {
               >
                 Explore Paris
               </a>
-
             </div>
 
             <div className="mt-10 flex flex-wrap gap-3 text-sm text-slate-300">
@@ -185,7 +177,6 @@ function CheapFlightsParis() {
                 Round-trip
               </span>
             </div>
-
           </div>
           <FlightSearch destination="Paris" className="mt-0 w-full min-w-0" />
         </div>
@@ -196,11 +187,8 @@ function CheapFlightsParis() {
         id="paris-guide"
         className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:px-8"
       >
-
         <div className="grid gap-12 lg:grid-cols-[1.2fr_.8fr] lg:items-center">
-
           <div>
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Paris Flight Guide
             </p>
@@ -210,30 +198,28 @@ function CheapFlightsParis() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              Paris has a way of making even a simple trip feel special.
-              Maybe you're dreaming of seeing the Eiffel Tower for the first
-              time, wandering through charming streets, spending an afternoon
-              in a museum, or sitting at a sidewalk café with nowhere else to be.
+              Paris has a way of making even a simple trip feel special. Maybe
+              you're dreaming of seeing the Eiffel Tower for the first time,
+              wandering through charming streets, spending an afternoon in a
+              museum, or sitting at a sidewalk café with nowhere else to be.
             </p>
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Whether you're planning a romantic getaway, a family vacation,
-              a solo adventure, or a longer European trip, Paris is a destination
+              Whether you're planning a romantic getaway, a family vacation, a
+              solo adventure, or a longer European trip, Paris is a destination
               that deserves a place on your itinerary.
             </p>
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              FlightDealsNow helps you explore available flights to Paris and
+              flighttripdeals helps you explore available flights to Paris and
               compare options based on your travel dates, schedule, and budget.
               You can look at one-way and round-trip itineraries and select an
               option that works for your plans.
             </p>
-
           </div>
 
           <div>
             <div className="rounded-[32px] bg-[#071a33] p-8 text-white shadow-2xl">
-
               <div className="flex items-center justify-between">
                 <span className="rounded-full bg-cyan-300/10 px-4 py-2 text-xs font-black uppercase tracking-widest text-cyan-300">
                   Destination
@@ -242,17 +228,14 @@ function CheapFlightsParis() {
                 <span className="text-3xl">✦</span>
               </div>
 
-              <h3 className="mt-8 text-3xl font-black">
-                Paris, France
-              </h3>
+              <h3 className="mt-8 text-3xl font-black">Paris, France</h3>
 
               <p className="mt-4 leading-7 text-slate-300">
-                A destination filled with iconic landmarks, museums,
-                cafés, neighborhoods, gardens, and memorable experiences.
+                A destination filled with iconic landmarks, museums, cafés,
+                neighborhoods, gardens, and memorable experiences.
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-3">
-
                 {airports.map((airport) => (
                   <div
                     key={airport.code}
@@ -261,27 +244,19 @@ function CheapFlightsParis() {
                     <p className="text-lg font-black text-cyan-300">
                       {airport.code}
                     </p>
-                    <p className="mt-1 text-xs text-slate-400">
-                      Paris Airport
-                    </p>
+                    <p className="mt-1 text-xs text-slate-400">Paris Airport</p>
                   </div>
                 ))}
-
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
 
       {/* WHY PARIS */}
       <section className="bg-white py-20">
-
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
           <div className="max-w-3xl">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Discover Paris
             </p>
@@ -289,39 +264,34 @@ function CheapFlightsParis() {
             <h2 className="mt-4 text-4xl font-black tracking-tight text-[#071a33] sm:text-5xl">
               What makes Paris so easy to fall for?
             </h2>
-
           </div>
 
           <div className="mt-12 grid gap-8 lg:grid-cols-2">
-
             <div className="space-y-5 text-lg leading-8 text-slate-600">
-
               <p>
                 Paris is famous for its landmarks, but its charm goes well
                 beyond the postcard views.
               </p>
 
               <p>
-                You can spend your morning admiring the Eiffel Tower,
-                wander along the Seine in the afternoon, and end the day
-                exploring a neighborhood you've never heard of before.
+                You can spend your morning admiring the Eiffel Tower, wander
+                along the Seine in the afternoon, and end the day exploring a
+                neighborhood you've never heard of before.
               </p>
 
               <p>
-                Art lovers can lose track of time inside the Louvre, while
-                food lovers can make an entire trip out of discovering
-                bakeries, cafés, markets, and French restaurants.
+                Art lovers can lose track of time inside the Louvre, while food
+                lovers can make an entire trip out of discovering bakeries,
+                cafés, markets, and French restaurants.
               </p>
-
             </div>
 
             <div className="space-y-5 text-lg leading-8 text-slate-600">
-
               <p>
                 There's also something wonderful about simply walking around
-                Paris. Explore Montmartre's winding streets, browse the shops
-                in Le Marais, relax in the Luxembourg Gardens, or find a quiet
-                café and watch the city go by.
+                Paris. Explore Montmartre's winding streets, browse the shops in
+                Le Marais, relax in the Luxembourg Gardens, or find a quiet café
+                and watch the city go by.
               </p>
 
               <p>
@@ -329,20 +299,15 @@ function CheapFlightsParis() {
                 Sometimes the best memories come from slowing down and seeing
                 where the day takes you.
               </p>
-
             </div>
-
           </div>
         </div>
       </section>
 
       {/* FLIGHT OPTIONS */}
       <section className="bg-[#f7fafc] py-20">
-
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
           <div className="rounded-[32px] bg-[#071a33] p-8 sm:p-12 lg:p-14">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-cyan-300">
               Compare Your Options
             </p>
@@ -352,19 +317,18 @@ function CheapFlightsParis() {
             </h2>
 
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              The best flight for your trip isn't always simply the one with
-              the lowest fare. Departure times, connections, baggage options,
+              The best flight for your trip isn't always simply the one with the
+              lowest fare. Departure times, connections, baggage options,
               arrival airport, and overall travel time can all affect your
               experience.
             </p>
 
             <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-              FlightDealsNow gives you a convenient way to explore available
+              flighttripdeals gives you a convenient way to explore available
               flights and compare different options for your Paris trip.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-
               {[
                 "One-way and round-trip flight options",
                 "Different departure and arrival schedules",
@@ -373,24 +337,17 @@ function CheapFlightsParis() {
                 "Different fare choices",
                 "Itineraries matching your preferred travel dates",
               ].map((item, index) => (
-
                 <div
                   key={item}
                   className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:bg-white/10"
                 >
-
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-cyan-300 font-black text-[#071a33]">
                     {String(index + 1).padStart(2, "0")}
                   </div>
 
-                  <p className="mt-4 font-bold leading-6 text-white">
-                    {item}
-                  </p>
-
+                  <p className="mt-4 font-bold leading-6 text-white">{item}</p>
                 </div>
-
               ))}
-
             </div>
 
             <a
@@ -399,18 +356,14 @@ function CheapFlightsParis() {
             >
               Explore Flights →
             </a>
-
           </div>
         </div>
       </section>
 
       {/* SEASONS */}
       <section className="bg-white py-20">
-
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
           <div className="max-w-3xl">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Plan Your Visit
             </p>
@@ -423,51 +376,37 @@ function CheapFlightsParis() {
               Paris is beautiful in every season, but the atmosphere changes
               throughout the year.
             </p>
-
           </div>
 
           <div className="mt-12 grid gap-5 md:grid-cols-2">
-
             {seasons.map((item, index) => (
-
               <div
                 key={item.title}
                 className="group rounded-[28px] border border-slate-200 bg-[#f7fafc] p-7 transition hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl"
               >
-
                 <div className="flex items-center justify-between">
-
                   <span className="text-xs font-black uppercase tracking-widest text-blue-600">
                     0{index + 1}
                   </span>
 
                   <span className="h-3 w-3 rounded-full bg-cyan-300 transition group-hover:scale-150" />
-
                 </div>
 
                 <h3 className="mt-8 text-2xl font-black text-[#071a33]">
                   {item.title}
                 </h3>
 
-                <p className="mt-4 leading-8 text-slate-600">
-                  {item.text}
-                </p>
-
+                <p className="mt-4 leading-8 text-slate-600">{item.text}</p>
               </div>
-
             ))}
-
           </div>
         </div>
       </section>
 
       {/* PLACES */}
       <section className="bg-[#f7fafc] py-20">
-
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
           <div className="max-w-3xl">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Explore Paris
             </p>
@@ -477,45 +416,33 @@ function CheapFlightsParis() {
             </h2>
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Paris has enough attractions to fill several trips, but if
-              you're visiting for the first time, these are some places
-              worth considering.
+              Paris has enough attractions to fill several trips, but if you're
+              visiting for the first time, these are some places worth
+              considering.
             </p>
-
           </div>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-
             {places.map((place, index) => (
-
               <div
                 key={place}
                 className="group flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-1 hover:border-cyan-300 hover:shadow-lg"
               >
-
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#071a33] text-sm font-black text-cyan-300">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
-                <span className="font-bold text-[#071a33]">
-                  {place}
-                </span>
-
+                <span className="font-bold text-[#071a33]">{place}</span>
               </div>
-
             ))}
-
           </div>
         </div>
       </section>
 
       {/* AIRPORTS */}
       <section className="bg-white py-20">
-
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-
           <div className="max-w-3xl">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Choose Your Airport
             </p>
@@ -526,21 +453,17 @@ function CheapFlightsParis() {
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
               Paris is primarily served by two major international airports.
-              When comparing flights, check the arrival airport as well as
-              the fare and schedule.
+              When comparing flights, check the arrival airport as well as the
+              fare and schedule.
             </p>
-
           </div>
 
           <div className="mt-12 grid gap-5 md:grid-cols-2">
-
             {airports.map((airport) => (
-
               <div
                 key={airport.code}
                 className="rounded-[28px] border border-slate-200 bg-[#f7fafc] p-7 transition hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl"
               >
-
                 <span className="inline-flex rounded-xl bg-[#071a33] px-4 py-2 text-sm font-black text-cyan-300">
                   {airport.code}
                 </span>
@@ -549,35 +472,24 @@ function CheapFlightsParis() {
                   {airport.name}
                 </h3>
 
-                <p className="mt-4 leading-7 text-slate-600">
-                  {airport.text}
-                </p>
-
+                <p className="mt-4 leading-7 text-slate-600">{airport.text}</p>
               </div>
-
             ))}
-
           </div>
 
           <div className="mt-8 rounded-[24px] border border-cyan-200 bg-cyan-50 p-6">
-
             <p className="text-lg leading-8 text-slate-700">
-              Your choice can affect how long it takes to reach your hotel
-              or first stop in the city.
+              Your choice can affect how long it takes to reach your hotel or
+              first stop in the city.
             </p>
-
           </div>
-
         </div>
       </section>
 
       {/* TIPS */}
       <section className="bg-[#f7fafc] py-20">
-
         <div className="mx-auto max-w-5xl px-5 sm:px-6 lg:px-8">
-
           <div className="text-center">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Smart Flight Search
             </p>
@@ -591,46 +503,34 @@ function CheapFlightsParis() {
               and availability. If you're flexible, compare a few different
               possibilities before booking.
             </p>
-
           </div>
 
           <div className="mt-12 space-y-4">
-
             {tips.map((tip, index) => (
-
               <div
                 key={index}
                 className="flex gap-5 rounded-[24px] border border-slate-200 bg-white p-6 transition hover:-translate-y-0.5 hover:shadow-lg"
               >
-
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#071a33] font-black text-cyan-300">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
-                <p className="text-base leading-7 text-slate-600">
-                  {tip}
-                </p>
-
+                <p className="text-base leading-7 text-slate-600">{tip}</p>
               </div>
-
             ))}
-
           </div>
 
           <p className="mt-8 text-center font-semibold leading-7 text-slate-700">
-            There isn't a guaranteed formula for finding the lowest fare,
-            so it's always worth checking the options available for your
-            specific dates.
+            There isn't a guaranteed formula for finding the lowest fare, so
+            it's always worth checking the options available for your specific
+            dates.
           </p>
-
         </div>
       </section>
 
       {/* CTA */}
       <section className="bg-[#071a33] py-20">
-
         <div className="mx-auto max-w-5xl px-5 text-center sm:px-6 lg:px-8">
-
           <span className="inline-flex rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs font-black uppercase tracking-widest text-cyan-300">
             Your Paris Journey
           </span>
@@ -640,15 +540,15 @@ function CheapFlightsParis() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-            Paris can be a romantic escape, a cultural adventure, a
-            food-filled getaway, or simply a chance to experience
-            somewhere completely different.
+            Paris can be a romantic escape, a cultural adventure, a food-filled
+            getaway, or simply a chance to experience somewhere completely
+            different.
           </p>
 
           <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-            Walk beneath the Eiffel Tower, get lost in a neighborhood
-            street, spend an afternoon surrounded by art, and leave some
-            time for the moments you didn't plan.
+            Walk beneath the Eiffel Tower, get lost in a neighborhood street,
+            spend an afternoon surrounded by art, and leave some time for the
+            moments you didn't plan.
           </p>
 
           <p className="mt-7 text-xl font-black text-cyan-300">
@@ -661,17 +561,13 @@ function CheapFlightsParis() {
           >
             Search Flights →
           </a>
-
         </div>
       </section>
 
       {/* FAQ */}
       <section className="bg-white py-20">
-
         <div className="mx-auto max-w-4xl px-5 sm:px-6 lg:px-8">
-
           <div className="text-center">
-
             <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-600">
               Travel Help
             </p>
@@ -679,34 +575,27 @@ function CheapFlightsParis() {
             <h2 className="mt-4 text-4xl font-black tracking-tight text-[#071a33] sm:text-5xl">
               Frequently Asked Questions
             </h2>
-
           </div>
 
           <div className="mt-12 space-y-3">
-
             {faqs.map((faq, index) => {
-
-              const isOpen = openFaq === index
+              const isOpen = openFaq === index;
 
               return (
                 <div
                   key={faq.question}
-                  className={`overflow-hidden rounded-2xl border transition ${isOpen
-                    ? "border-cyan-300 bg-[#f7fafc] shadow-sm"
-                    : "border-slate-200 bg-white"
-                    }`}
+                  className={`overflow-hidden rounded-2xl border transition ${
+                    isOpen
+                      ? "border-cyan-300 bg-[#f7fafc] shadow-sm"
+                      : "border-slate-200 bg-white"
+                  }`}
                 >
-
                   <button
                     type="button"
-                    onClick={() =>
-                      setOpenFaq(isOpen ? null : index)
-                    }
+                    onClick={() => setOpenFaq(isOpen ? null : index)}
                     className="flex w-full items-center justify-between gap-5 px-6 py-5 text-left"
                   >
-
                     <div className="flex items-center gap-4">
-
                       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#071a33] text-xs font-black text-cyan-300">
                         {String(index + 1).padStart(2, "0")}
                       </span>
@@ -714,37 +603,30 @@ function CheapFlightsParis() {
                       <span className="font-bold text-[#071a33]">
                         {faq.question}
                       </span>
-
                     </div>
 
                     <span
-                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cyan-50 text-xl font-bold text-blue-600 transition-transform ${isOpen ? "rotate-45" : ""
-                        }`}
+                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cyan-50 text-xl font-bold text-blue-600 transition-transform ${
+                        isOpen ? "rotate-45" : ""
+                      }`}
                     >
                       +
                     </span>
-
                   </button>
 
                   {isOpen && (
                     <div className="border-t border-slate-200 px-6 pb-6 pt-4 pl-[76px]">
-                      <p className="leading-7 text-slate-600">
-                        {faq.answer}
-                      </p>
+                      <p className="leading-7 text-slate-600">{faq.answer}</p>
                     </div>
                   )}
-
                 </div>
-              )
+              );
             })}
-
           </div>
-
         </div>
       </section>
-
     </main>
-  )
+  );
 }
 
-export default CheapFlightsParis
+export default CheapFlightsParis;

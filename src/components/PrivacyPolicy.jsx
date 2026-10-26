@@ -1,21 +1,19 @@
 import SEO from "./SEO";
 
-
 const PrivacyPolicy = () => {
   <SEO
     title="Privacy Policy | FlightsDealNow"
     description="Read the FlightsDealNow Privacy Policy to learn how information may be collected, used, protected, and handled."
     path="/privacy-policy"
-  />
+  />;
 
   return (
     <main className="bg-white">
-
       {/* ================= PAGE HEADER ================= */}
       <section className="bg-gradient-to-r from-[#062b5c] to-[#1687d9]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-16">
           <p className="text-sm font-semibold text-white/70 mb-2">
-            FlightDealsNow
+            flighttripdeals
           </p>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
@@ -31,35 +29,31 @@ const PrivacyPolicy = () => {
       {/* ================= POLICY CONTENT ================= */}
       <section className="py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-
           {/* Intro */}
           <div className="space-y-5 text-gray-600 text-sm sm:text-base leading-7">
-
             <p>
-              At FlightDealsNow, your privacy matters to us. This Privacy Policy
-              explains how Flightdealsnow.com (“Flightdealsnow.com,” “FlightDealsNow,”
-              “we,” “us,” or “our”) collects, uses, shares, and protects
-              information when you visit or use our website, contact us,
-              request travel information, or use our flight search and
-              booking-related services.
+              At flighttripdeals, your privacy matters to us. This Privacy
+              Policy explains how flighttripdeals.com (“flighttripdeals.com,”
+              “flighttripdeals,” “we,” “us,” or “our”) collects, uses, shares,
+              and protects information when you visit or use our website,
+              contact us, request travel information, or use our flight search
+              and booking-related services.
             </p>
 
             <p>
-              By accessing or using FlightDealsNow, you acknowledge that you have
-              read and understood this Privacy Policy. If you do not agree with
-              the practices described here, please discontinue use of our
+              By accessing or using flighttripdeals, you acknowledge that you
+              have read and understood this Privacy Policy. If you do not agree
+              with the practices described here, please discontinue use of our
               website.
             </p>
-
           </div>
 
           {/* ================= 1 ================= */}
           <PolicySection title="1. Information We Collect">
-
             <p>
               We may collect information that you voluntarily provide when you
-              interact with FlightDealsNow. Depending on how you use our website
-              or communicate with us, this may include:
+              interact with flighttripdeals. Depending on how you use our
+              website or communicate with us, this may include:
             </p>
 
             <PolicyList
@@ -79,8 +73,8 @@ const PrivacyPolicy = () => {
               We may also automatically collect certain technical information
               when you visit our website. This can include your IP address,
               browser type, device information, operating system, pages viewed,
-              referring website, approximate location, and information about
-              how you interact with our website.
+              referring website, approximate location, and information about how
+              you interact with our website.
             </p>
 
             <p>
@@ -88,15 +82,13 @@ const PrivacyPolicy = () => {
               unless it is reasonably necessary to provide a requested
               travel-related service.
             </p>
-
           </PolicySection>
 
           {/* ================= 2 ================= */}
           <PolicySection title="2. How We Use Your Information">
-
             <p>
-              Flightdealsnow.com may use the information we collect for legitimate
-              business and service-related purposes, including:
+              flighttripdeals.com may use the information we collect for
+              legitimate business and service-related purposes, including:
             </p>
 
             <PolicyList
@@ -121,15 +113,13 @@ const PrivacyPolicy = () => {
               analytics, reporting, and business improvement. Such information
               is not intended to identify individual users.
             </p>
-
           </PolicySection>
 
           {/* ================= 3 ================= */}
           <PolicySection title="3. Information Sharing & Disclosure">
-
             <p>
               We do not sell your personal information simply because you visit
-              or use FlightDealsNow.
+              or use flighttripdeals.
             </p>
 
             <p>
@@ -142,40 +132,38 @@ const PrivacyPolicy = () => {
               If you request a flight search, booking, or related travel
               assistance, certain information may need to be shared with
               airlines, travel suppliers, reservation systems, payment
-              processors, or other service providers involved in fulfilling
-              your request.
+              processors, or other service providers involved in fulfilling your
+              request.
             </PolicySubsection>
 
             <PolicySubsection title="Service providers:">
               We may work with third-party companies that assist with website
               hosting, analytics, technology, customer support, communications,
-              payment processing, fraud prevention, or other business
-              functions. These providers may access information only as
-              necessary to perform services on our behalf.
+              payment processing, fraud prevention, or other business functions.
+              These providers may access information only as necessary to
+              perform services on our behalf.
             </PolicySubsection>
 
             <PolicySubsection title="Legal and regulatory authorities:">
               We may disclose information when required by law, legal process,
               court order, government request, or when we reasonably believe
-              disclosure is necessary to protect our rights, users, property,
-              or safety.
+              disclosure is necessary to protect our rights, users, property, or
+              safety.
             </PolicySubsection>
 
             <PolicySubsection title="Business transactions:">
-              If Flightdealsnow.com is involved in a merger, acquisition,
+              If flighttripdeals.com is involved in a merger, acquisition,
               restructuring, financing, sale of assets, or similar business
               transaction, personal information may be transferred as part of
               that transaction, subject to applicable legal requirements.
             </PolicySubsection>
-
           </PolicySection>
 
           {/* ================= 4 ================= */}
           <PolicySection title="4. Cookies & Similar Technologies">
-
             <p>
-              FlightDealsNow may use cookies, pixels, tags, analytics tools, and
-              similar technologies to help the website function properly and
+              flighttripdeals may use cookies, pixels, tags, analytics tools,
+              and similar technologies to help the website function properly and
               understand how visitors use our website.
             </p>
 
@@ -186,21 +174,19 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              You can generally adjust your browser settings to reject or
-              delete cookies. However, disabling certain cookies may affect
-              some website functionality.
+              You can generally adjust your browser settings to reject or delete
+              cookies. However, disabling certain cookies may affect some
+              website functionality.
             </p>
 
             <p>
               For additional information about our use of cookies, please refer
               to our Cookie Policy.
             </p>
-
           </PolicySection>
 
           {/* ================= 5 ================= */}
           <PolicySection title="5. Third-Party Websites & Services">
-
             <p>
               Our website may contain links, integrations, advertisements, or
               references to third-party websites and services. These third
@@ -209,17 +195,15 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              Flightdealsnow.com does not control the privacy practices of
+              flighttripdeals.com does not control the privacy practices of
               independent third-party websites. We encourage you to review the
               privacy policy of any external website before providing personal
               information.
             </p>
-
           </PolicySection>
 
           {/* ================= 6 ================= */}
           <PolicySection title="6. Data Security">
-
             <p>
               We take reasonable administrative, technical, and organizational
               measures designed to protect personal information against
@@ -233,18 +217,16 @@ const PrivacyPolicy = () => {
               secure. Therefore, while we work to protect your information, we
               cannot guarantee absolute security.
             </p>
-
           </PolicySection>
 
           {/* ================= 7 ================= */}
           <PolicySection title="7. Data Retention">
-
             <p>
-              We retain personal information for as long as reasonably
-              necessary to provide requested services, maintain business and
-              transaction records, resolve disputes, comply with legal and
-              regulatory obligations, enforce agreements, and protect our
-              legitimate business interests.
+              We retain personal information for as long as reasonably necessary
+              to provide requested services, maintain business and transaction
+              records, resolve disputes, comply with legal and regulatory
+              obligations, enforce agreements, and protect our legitimate
+              business interests.
             </p>
 
             <p>
@@ -252,18 +234,16 @@ const PrivacyPolicy = () => {
               the nature of the information and the purpose for which it was
               collected.
             </p>
-
           </PolicySection>
 
           {/* ================= 8 ================= */}
           <PolicySection title="8. Your Privacy Choices">
-
             <p>
               Depending on applicable law, you may have certain rights
               concerning your personal information. These may include the right
               to request access to certain information we hold about you,
-              request correction of inaccurate information, request deletion
-              of certain information, or opt out of certain marketing
+              request correction of inaccurate information, request deletion of
+              certain information, or opt out of certain marketing
               communications.
             </p>
 
@@ -272,8 +252,7 @@ const PrivacyPolicy = () => {
               following the instructions included in the communication. Please
               note that even if you opt out of promotional messages, we may
               still send necessary service-related communications regarding
-              inquiries, transactions, bookings, or other interactions with
-              you.
+              inquiries, transactions, bookings, or other interactions with you.
             </p>
 
             <p>
@@ -281,14 +260,12 @@ const PrivacyPolicy = () => {
               information provided below. We may need to verify your identity
               before completing certain requests.
             </p>
-
           </PolicySection>
 
           {/* ================= 9 ================= */}
           <PolicySection title="9. Children's Privacy">
-
             <p>
-              FlightDealsNow is not intended to knowingly collect personal
+              flighttripdeals is not intended to knowingly collect personal
               information directly from children under the age of 13. We
               encourage parents and guardians to supervise children's use of
               online services.
@@ -300,31 +277,27 @@ const PrivacyPolicy = () => {
               contact us so that we can review the situation and take
               appropriate action.
             </p>
-
           </PolicySection>
 
           {/* ================= 10 ================= */}
           <PolicySection title="10. International Users">
-
             <p>
-              FlightDealsNow primarily serves customers in the United States.
+              flighttripdeals primarily serves customers in the United States.
               However, visitors may access our website from other countries. If
               you access our website from outside the United States, you
-              understand that information you provide may be processed or
-              stored in the United States or other locations where our service
+              understand that information you provide may be processed or stored
+              in the United States or other locations where our service
               providers operate.
             </p>
 
             <p>
-              Privacy rights and protections may vary depending on your
-              location and applicable law.
+              Privacy rights and protections may vary depending on your location
+              and applicable law.
             </p>
-
           </PolicySection>
 
           {/* ================= 11 ================= */}
           <PolicySection title="11. Changes to This Privacy Policy">
-
             <p>
               We may update this Privacy Policy periodically to reflect changes
               in our business practices, website functionality, legal
@@ -333,73 +306,61 @@ const PrivacyPolicy = () => {
 
             <p>
               When we make changes, we will update the “Effective Date” at the
-              top of this policy. We encourage you to review this page from
-              time to time to remain informed about how we handle personal
+              top of this policy. We encourage you to review this page from time
+              to time to remain informed about how we handle personal
               information.
             </p>
-
           </PolicySection>
 
           {/* ================= 12 ================= */}
           <PolicySection title="12. Contact Us">
-
             <p>
               If you have questions, concerns, or requests regarding this
               Privacy Policy or how your information is handled, please contact
-              Flightdealsnow.com:
+              flighttripdeals.com:
             </p>
 
             <div className="mt-5 rounded-xl bg-[#f5f9fd] border border-gray-200 p-5 space-y-3 text-sm">
-
               <p>
-                <strong className="text-[#123b7a]">Address:</strong>{" "}
-                30 N Gould St, Sheridan, WY 82801, USA
+                <strong className="text-[#123b7a]">Address:</strong> 30 N Gould
+                St, Sheridan, WY 82801, USA
               </p>
 
               <p>
                 <strong className="text-[#123b7a]">Email:</strong>{" "}
                 <a
-                  href="mailto:support@flightdealsnow.com"
+                  href="mailto:support@flighttripdeals.com"
                   className="text-[#1687d9] hover:underline"
                 >
-                  support@flightdealsnow.com
+                  support@flighttripdeals.com
                 </a>
               </p>
 
               <p>
-                <strong className="text-[#123b7a]">Phone:</strong>{" "}
-                [TFN]
+                <strong className="text-[#123b7a]">Phone:</strong> [TFN]
               </p>
-
             </div>
-
           </PolicySection>
 
           {/* Closing */}
           <div className="mt-10 rounded-2xl bg-gradient-to-r from-[#123b7a] to-[#1687d9] p-6 sm:p-8 text-white">
-
             <p className="text-sm sm:text-base leading-7">
-              We value your trust and are committed to handling your
-              information responsibly while providing a convenient and reliable
-              experience through FlightDealsNow.
+              We value your trust and are committed to handling your information
+              responsibly while providing a convenient and reliable experience
+              through flighttripdeals.
             </p>
-
           </div>
-
         </div>
       </section>
-
     </main>
-  )
-}
-
+  );
+};
 
 /* ================= HELPERS ================= */
 
 const PolicySection = ({ title, children }) => {
   return (
     <section className="mt-10 first:mt-0">
-
       <h2 className="text-xl sm:text-2xl font-extrabold text-[#123b7a] pb-3 border-b border-gray-100">
         {title}
       </h2>
@@ -407,11 +368,9 @@ const PolicySection = ({ title, children }) => {
       <div className="mt-5 space-y-5 text-gray-600 text-sm sm:text-base leading-7">
         {children}
       </div>
-
     </section>
-  )
-}
-
+  );
+};
 
 const PolicyList = ({ items }) => {
   return (
@@ -420,20 +379,15 @@ const PolicyList = ({ items }) => {
         <li key={item}>{item}</li>
       ))}
     </ul>
-  )
-}
-
+  );
+};
 
 const PolicySubsection = ({ title, children }) => {
   return (
     <p>
-      <strong className="text-gray-700">
-        {title}
-      </strong>{" "}
-      {children}
+      <strong className="text-gray-700">{title}</strong> {children}
     </p>
-  )
-}
+  );
+};
 
-
-export default PrivacyPolicy
+export default PrivacyPolicy;

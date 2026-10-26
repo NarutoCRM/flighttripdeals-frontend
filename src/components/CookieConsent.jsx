@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const COOKIE_CONSENT_KEY = "flightdealsnow_cookie_consent";
+const COOKIE_CONSENT_KEY = "flighttripdeals_cookie_consent";
 
 export default function CookieConsent() {
   const [visible, setVisible] = useState(false);

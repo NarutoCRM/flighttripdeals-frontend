@@ -64,7 +64,7 @@ const CallPopup = ({ openRequest = 0, triggerRef }) => {
   useEffect(() => {
     if (!isOpen) return;
     if (openRequest) closeRef.current?.focus();
-    const onKeyDown = event => {
+    const onKeyDown = (event) => {
       if (event.key === "Escape") closeRef.current?.click();
     };
     document.addEventListener("keydown", onKeyDown);
@@ -76,7 +76,11 @@ const CallPopup = ({ openRequest = 0, triggerRef }) => {
   }
 
   return (
-    <div role="dialog" aria-label="Call a travel expert" className=" fixed bottom-5 left-1/2 -translate-x-1/2 z-40 w-[calc(100%-24px)] max-w-[410px] max-h-[calc(100dvh-130px)] overflow-y-auto">
+    <div
+      role="dialog"
+      aria-label="Call a travel expert"
+      className=" fixed bottom-5 left-1/2 -translate-x-1/2 z-40 w-[calc(100%-24px)] max-w-[410px] max-h-[calc(100dvh-130px)] overflow-y-auto"
+    >
       <div className=" relative overflow-hidden rounded-[26px] border border-white/10 bg-[#071a33] shadow-2xl shadow-black/30">
         {/* ================= DECORATIVE GLOW ================= */}
         <div
@@ -131,7 +135,7 @@ const CallPopup = ({ openRequest = 0, triggerRef }) => {
 
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-widest text-cyan-300">
-                FlightDealsNow
+                flighttripdeals
               </p>
 
               <h3 className="mt-1 text-base font-extrabold leading-5 text-white sm:text-lg">

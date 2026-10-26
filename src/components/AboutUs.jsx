@@ -1,16 +1,13 @@
 import SEO from "./SEO";
 
-
 const AboutUs = () => {
-<SEO
-  title="About FlightDealsNow | Independent Travel Agent"
-  description="Learn about FlightDealsNow, an independent travel agent helping travelers search flight options and request travel quotes."
-  path="/about-us"
-/>
+  <SEO
+    title="About flighttripdeals | Independent Travel Agent"
+    description="Learn about flighttripdeals, an independent travel agent helping travelers search flight options and request travel quotes."
+    path="/about-us"
+  />;
   return (
-    
     <main className="bg-[#f7fafc]">
-
       {/* ================= HERO ================= */}
       <section className="relative overflow-hidden bg-[#071a33]">
         {/* Background Image */}
@@ -28,17 +25,14 @@ const AboutUs = () => {
 
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="max-w-3xl">
-
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-cyan-200">
               <span className="h-2 w-2 rounded-full bg-cyan-300 animate-pulse" />
-              About FlightDealsNow
+              About flighttripdeals
             </div>
 
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl">
               Travel Planning,
-              <span className="block text-cyan-300">
-                Made Simpler.
-              </span>
+              <span className="block text-cyan-300">Made Simpler.</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-7 text-white/65 sm:text-lg">
@@ -69,9 +63,7 @@ const AboutUs = () => {
       {/* ================= INTRO ================= */}
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-
           <div className="grid gap-10 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
-
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600">
                 Who We Are
@@ -84,7 +76,7 @@ const AboutUs = () => {
 
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-600 sm:text-lg">
                 <p>
-                  At FlightDealsNow, we believe planning a trip should feel
+                  At flighttripdeals, we believe planning a trip should feel
                   exciting rather than complicated. Whether you're travelling
                   for a family visit, a vacation, or a business trip, choosing
                   the right flight can take time and effort.
@@ -119,38 +111,29 @@ const AboutUs = () => {
                 </div>
 
                 <div className="mt-6 space-y-4">
-
                   <div className="rounded-2xl bg-[#f7fafc] p-4">
-                    <p className="text-xs text-gray-400">
-                      Explore
-                    </p>
+                    <p className="text-xs text-gray-400">Explore</p>
                     <p className="mt-1 font-bold text-[#071a33]">
                       Flight Options
                     </p>
                   </div>
 
                   <div className="rounded-2xl bg-[#071a33] p-4">
-                    <p className="text-xs text-white/40">
-                      Connect
-                    </p>
+                    <p className="text-xs text-white/40">Connect</p>
                     <p className="mt-1 font-bold text-cyan-300">
                       Travel Assistance
                     </p>
                   </div>
 
                   <div className="rounded-2xl bg-cyan-50 p-4">
-                    <p className="text-xs text-cyan-700/60">
-                      Plan
-                    </p>
+                    <p className="text-xs text-cyan-700/60">Plan</p>
                     <p className="mt-1 font-bold text-[#071a33]">
                       Your Next Journey
                     </p>
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -158,7 +141,6 @@ const AboutUs = () => {
       {/* ================= APPROACH ================= */}
       <section className="bg-[#071a33] py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-
           <div className="max-w-2xl">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-300">
               Our Approach
@@ -171,13 +153,12 @@ const AboutUs = () => {
 
             <p className="mt-5 text-base leading-7 text-white/55 sm:text-lg">
               Every traveler has different priorities. We focus on making
-              available choices easier to explore and helping you understand
-              the options that may fit your trip.
+              available choices easier to explore and helping you understand the
+              options that may fit your trip.
             </p>
           </div>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-
             {/* Card 1 */}
             <div className="group rounded-[26px] border border-white/10 bg-white/[0.05] p-6 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-300/30">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-300/10 text-cyan-300">
@@ -189,8 +170,8 @@ const AboutUs = () => {
               </h3>
 
               <p className="mt-3 text-sm leading-6 text-white/50">
-                Discover flight possibilities based on your destination,
-                dates, passengers, and travel preferences.
+                Discover flight possibilities based on your destination, dates,
+                passengers, and travel preferences.
               </p>
             </div>
 
@@ -225,7 +206,6 @@ const AboutUs = () => {
                 to help discuss your travel requirements.
               </p>
             </div>
-
           </div>
         </div>
       </section>
@@ -233,11 +213,8 @@ const AboutUs = () => {
       {/* ================= PERSONAL SERVICE ================= */}
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-
           <div className="rounded-[32px] border border-gray-200 bg-white p-7 shadow-sm sm:p-10 lg:p-12">
-
             <div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
-
               <div>
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#071a33] text-2xl text-cyan-300">
                   ♡
@@ -249,9 +226,7 @@ const AboutUs = () => {
 
                 <h2 className="mt-3 text-3xl font-extrabold leading-tight text-[#071a33]">
                   Sometimes you just want to
-                  <span className="text-blue-600">
-                    {" "}talk to someone.
-                  </span>
+                  <span className="text-blue-600"> talk to someone.</span>
                 </h2>
               </div>
 
@@ -269,9 +244,9 @@ const AboutUs = () => {
                 </p>
 
                 <p>
-                  We believe helpful travel service starts with listening.
-                  Every journey has its own requirements, and we aim to make
-                  your next step clearer.
+                  We believe helpful travel service starts with listening. Every
+                  journey has its own requirements, and we aim to make your next
+                  step clearer.
                 </p>
 
                 <a
@@ -282,7 +257,6 @@ const AboutUs = () => {
                   <span className="text-cyan-300">→</span>
                 </a>
               </div>
-
             </div>
           </div>
         </div>
@@ -290,12 +264,10 @@ const AboutUs = () => {
 
       {/* ================= FINAL CTA ================= */}
       <section className="relative overflow-hidden bg-[#071a33] py-16 sm:py-20">
-
         <div className="absolute -left-20 top-0 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
         <div className="absolute -right-20 bottom-0 h-80 w-80 rounded-full bg-blue-500/10 blur-3xl" />
 
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6">
-
           <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-300/10 text-2xl text-cyan-300">
             ✈
           </div>
@@ -306,9 +278,7 @@ const AboutUs = () => {
 
           <h2 className="mt-3 text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
             Ready to plan your
-            <span className="block text-cyan-300">
-              next adventure?
-            </span>
+            <span className="block text-cyan-300">next adventure?</span>
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white/50 sm:text-base">
@@ -317,7 +287,6 @@ const AboutUs = () => {
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-
             <a
               href="/"
               className="rounded-xl bg-cyan-300 px-7 py-3.5 text-sm font-bold text-[#071a33] transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-200"
@@ -331,13 +300,11 @@ const AboutUs = () => {
             >
               Call {`+1-888-348-7083`}
             </a>
-
           </div>
         </div>
       </section>
-
     </main>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;

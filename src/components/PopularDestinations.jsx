@@ -53,11 +53,14 @@ const destinations = [
       "https://images.unsplash.com/photo-1501979376754-2ff867a4f659?auto=format&fit=crop&w=1200&q=85",
     link: "/cheap-flights-to-boston",
   },
-]
+];
 
 export default function PopularDestinations() {
   return (
-    <section id="destinations" className="relative overflow-hidden bg-[#071a33] py-20 sm:py-24">
+    <section
+      id="destinations"
+      className="relative overflow-hidden bg-[#071a33] py-20 sm:py-24"
+    >
       {/* Background decoration */}
       <div className="pointer-events-none absolute -left-32 top-20 h-72 w-72 rounded-full bg-blue-500/10 blur-3xl" />
       <div className="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-cyan-400/10 blur-3xl" />
@@ -78,7 +81,7 @@ export default function PopularDestinations() {
 
             <p className="mt-5 max-w-xl text-base leading-7 text-slate-300 sm:text-lg">
               Browse inspiring city escapes and discover your next route with
-              FlightDealsNow.
+              flighttripdeals.
             </p>
           </div>
 
@@ -99,16 +102,16 @@ export default function PopularDestinations() {
             <a
               key={destination.name}
               href={destination.link}
-              className={`group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-cyan-300/40 hover:shadow-cyan-950/40 ${index === 0 || index === 3
-                ? "lg:col-span-7"
-                : "lg:col-span-5"
-                }`}
+              className={`group relative overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:border-cyan-300/40 hover:shadow-cyan-950/40 ${
+                index === 0 || index === 3 ? "lg:col-span-7" : "lg:col-span-5"
+              }`}
             >
               <div
-                className={`relative overflow-hidden ${index === 0 || index === 3
-                  ? "h-[360px] sm:h-[400px]"
-                  : "h-[300px] sm:h-[340px]"
-                  }`}
+                className={`relative overflow-hidden ${
+                  index === 0 || index === 3
+                    ? "h-[360px] sm:h-[400px]"
+                    : "h-[300px] sm:h-[340px]"
+                }`}
               >
                 <img
                   src={destination.image}
@@ -116,7 +119,7 @@ export default function PopularDestinations() {
                   className="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-110"
                   loading="lazy"
                   onError={(e) => {
-                    e.currentTarget.src = "/hero-plane.jpg"
+                    e.currentTarget.src = "/hero-plane.jpg";
                   }}
                 />
 
@@ -182,5 +185,5 @@ export default function PopularDestinations() {
         </div>
       </div>
     </section>
-  )
+  );
 }
