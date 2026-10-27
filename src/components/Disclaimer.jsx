@@ -28,8 +28,8 @@ function Disclaimer() {
   return (
     <main className="min-h-screen bg-slate-50">
       <SEO
-        title="Disclaimer | FlightsDealNow"
-        description="Read the FlightsDealNow disclaimer regarding flight information, travel services, airline references, pricing, availability, and third-party providers."
+        title="Disclaimer | flighttripdeals"
+        description="Read the flighttripdeals disclaimer regarding flight information, travel services, airline references, pricing, availability, and third-party providers."
         path="/disclaimer"
       />
       {/* Hero */}

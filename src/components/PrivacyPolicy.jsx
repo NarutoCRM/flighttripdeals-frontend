@@ -2,8 +2,8 @@ import SEO from "./SEO";
 
 const PrivacyPolicy = () => {
   <SEO
-    title="Privacy Policy | FlightsDealNow"
-    description="Read the FlightsDealNow Privacy Policy to learn how information may be collected, used, protected, and handled."
+    title="Privacy Policy | flighttripdeals"
+    description="Read the flighttripdeals Privacy Policy to learn how information may be collected, used, protected, and handled."
     path="/privacy-policy"
   />;
 

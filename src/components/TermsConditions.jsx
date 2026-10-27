@@ -2,8 +2,8 @@ import SEO from "./SEO";
 
 const TermsConditions = () => {
   <SEO
-    title="Terms & Conditions | FlightsDealNow"
-    description="Review the Terms and Conditions that apply to the use of FlightsDealNow and its travel services."
+    title="Terms & Conditions | flighttripdeals"
+    description="Review the Terms and Conditions that apply to the use of flighttripdeals and its travel services."
     path="/terms-conditions"
   />;
 

@@ -2,7 +2,7 @@ import FlightSearch from "./FlightSearch";
 import SEO from "./SEO";
 
 <SEO
-  title="Hawaiian Airlines Flights | Search & Get a Quote | FlightsDealNow"
+  title="Hawaiian Airlines Flights | Search & Get a Quote | flighttripdeals"
   description="Search Hawaiian Airlines flight options, choose your travel details and request a personalized flight quote."
   path="/airlines/hawaiian-airlines"
 />;

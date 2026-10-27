@@ -2,7 +2,7 @@ import FlightSearch from "./FlightSearch";
 import SEO from "./SEO";
 
 <SEO
-  title="American Airlines Flights | Search & Get a Quote | FlightsDealNow"
+  title="American Airlines Flights | Search & Get a Quote | flighttripdeals"
   description="Search American Airlines flight options, select your dates and travelers, and request a personalized flight quote."
   path="/airlines/american-airlines"
 />;

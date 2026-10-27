@@ -2,7 +2,7 @@ import FlightSearch from "./FlightSearch";
 import SEO from "./SEO";
 
 <SEO
-  title="Frontier Airlines Flights | Search & Get a Quote | FlightsDealNow"
+  title="Frontier Airlines Flights | Search & Get a Quote | flighttripdeals"
   description="Explore Frontier Airlines flight search options and request a personalized quote based on your trip details."
   path="/airlines/frontier-airlines"
 />;

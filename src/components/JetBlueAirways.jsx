@@ -1,7 +1,7 @@
 import FlightSearch from "./FlightSearch";
 import SEO from "./SEO";
 <SEO
-  title="JetBlue Airways Flights | Search & Get a Quote | FlightsDealNow"
+  title="JetBlue Airways Flights | Search & Get a Quote | flighttripdeals"
   description="Explore JetBlue Airways flight search options, select your trip details and request a personalized quote."
   path="/airlines/jetblue-airways"
 />;

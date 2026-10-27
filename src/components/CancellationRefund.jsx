@@ -1,8 +1,8 @@
 import SEO from "./SEO";
 
 <SEO
-  title="Cancellation & Refund Policy | FlightsDealNow"
-  description="Review the FlightsDealNow cancellation and refund policy, including airline rules, refund requests, and applicable conditions."
+  title="Cancellation & Refund Policy | flighttripdeals"
+  description="Review the flighttripdeals cancellation and refund policy, including airline rules, refund requests, and applicable conditions."
   path="/cancellation-refund"
 />;
 

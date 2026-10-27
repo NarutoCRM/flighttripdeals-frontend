@@ -4,8 +4,8 @@ import FlightSearch from "./FlightSearch";
 import SEO from "./SEO";
 
 <SEO
-  title="United Airlines Flights | Search & Get a Quote | FlightsDealNow"
-  description="Search United Airlines flight options, choose your travel dates and request a personalized flight quote through FlightsDealNow."
+  title="United Airlines Flights | Search & Get a Quote | flighttripdeals"
+  description="Search United Airlines flight options, choose your travel dates and request a personalized flight quote through flighttripdeals."
   path="/airlines/united-airlines"
 />;
 

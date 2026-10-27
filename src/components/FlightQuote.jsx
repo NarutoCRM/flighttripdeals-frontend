@@ -136,7 +136,7 @@ export default function FlightQuote() {
           <div className="relative z-10 flex h-full flex-col justify-between">
             <div>
               <span className="rounded-full bg-white/10 px-4 py-2 text-xs font-bold backdrop-blur">
-                FlightsDealNow
+                flighttripdeals
               </span>
 
               <h1 className="mt-8 text-4xl font-black leading-tight sm:text-5xl">
@@ -281,7 +281,7 @@ export default function FlightQuote() {
             </button>
 
             <p className="text-center text-[11px] leading-5 text-slate-400">
-              Your request will be sent securely to our FlightsDealNow travel
+              Your request will be sent securely to our flighttripdeals travel
               support team.
             </p>
           </form>

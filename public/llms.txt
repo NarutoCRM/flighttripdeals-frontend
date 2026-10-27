@@ -1,6 +1,6 @@
-# FlightsDealNow
+# flighttripdeals
 
-> FlightsDealNow is a travel website that helps users search for flight options and request personalized flight quotes.
+> flighttripdeals is a travel website that helps users search for flight options and request personalized flight quotes.
 
 ## Website
 
@@ -41,7 +41,7 @@ Users can enter:
 
 ## Airline Pages
 
-FlightsDealNow provides informational flight-search pages for:
+flighttripdeals provides informational flight-search pages for:
 
 - United Airlines
 - Delta Air Lines
@@ -56,7 +56,7 @@ FlightsDealNow provides informational flight-search pages for:
 
 ## Important
 
-FlightsDealNow is an independent travel website. Airline names and references are provided for informational and search purposes and do not indicate official airline ownership, endorsement, or affiliation unless explicitly stated.
+flighttripdeals is an independent travel website. Airline names and references are provided for informational and search purposes and do not indicate official airline ownership, endorsement, or affiliation unless explicitly stated.
 
 ## Contact
 

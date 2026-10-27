@@ -37,8 +37,8 @@ function CookiePolicy() {
   return (
     <main className="min-h-screen bg-[#f7fafc]">
       <SEO
-        title="Cookie Policy | FlightsDealNow"
-        description="Learn how FlightsDealNow uses cookies and similar technologies to support website functionality, analytics, and user experience."
+        title="Cookie Policy | flighttripdeals"
+        description="Learn how flighttripdeals uses cookies and similar technologies to support website functionality, analytics, and user experience."
         path="/cookie-policy"
       />
 
