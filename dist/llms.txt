@@ -1,0 +1,67 @@
+# flighttripdeals
+
+> flighttripdeals is a travel website that helps users search for flight options and request personalized flight quotes.
+
+## Website
+
+https://flighttripdeals.com/
+
+## Contact
+
+Email: support@flighttripdeals.com
+Phone: +1-888-348-7083
+
+## Main Services
+
+- Flight search
+- One-way flight search
+- Round-trip flight search
+- Flight quote requests
+- Travel planning assistance
+
+## Flight Search
+
+Users can enter:
+
+- Departure airport or city
+- Destination airport or city
+- Departure date
+- Return date
+- Number of travelers
+- Cabin class
+
+## Destination Pages
+
+- New York
+- Los Angeles
+- Paris
+- San Francisco
+- Boston
+- Las Vegas
+
+## Airline Pages
+
+flighttripdeals provides informational flight-search pages for:
+
+- United Airlines
+- Delta Air Lines
+- Southwest Airlines
+- American Airlines
+- Alaska Airlines
+- JetBlue Airways
+- Spirit Airlines
+- Frontier Airlines
+- Hawaiian Airlines
+- Allegiant Air
+
+## Important
+
+flighttripdeals is an independent travel website. Airline names and references are provided for informational and search purposes and do not indicate official airline ownership, endorsement, or affiliation unless explicitly stated.
+
+## Contact
+
+For flight questions and quote requests:
+
+Email: support@flighttripdeals.com
+Phone: +1-888-348-7083
+Website: https://flighttripdeals.com/
