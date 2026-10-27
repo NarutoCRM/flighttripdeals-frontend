@@ -177,14 +177,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        {/* Trustpilot */}
-        <div className="mx-auto max-w-7xl px-5 pb-8 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
-            <div className="w-full max-w-md rounded-2xl bg-white p-4 shadow-lg">
-              <TrustpilotButton />
-            </div>
-          </div>
-        </div>
+        
         {/* Legal Links */}
 
         <div className="mt-8 border-t border-white/10 pt-6">
